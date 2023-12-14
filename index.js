@@ -32,4 +32,6 @@ const BlogSchema = new mongoose.Schema({
     confirmPassword: String
 });
 
+const Blog = mongoose.model("Blog", BlogSchema);
+
 app.listen(port)
