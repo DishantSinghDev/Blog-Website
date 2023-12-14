@@ -1,0 +1,28 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "Create a blog website for reading and writing posts using HTML, CSS, Node.js and MongoDB for data storage.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DishantSinghDev/Blog-Website.git"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "Dishant Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DishantSinghDev/Blog-Website/issues"
+  },
+  "homepage": "https://github.com/DishantSinghDev/Blog-Website#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
